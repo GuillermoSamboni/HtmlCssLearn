@@ -1,0 +1,329 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.bodyLogin{
+    background-image: url("https://cdn.pixabay.com/photo/2021/10/10/23/04/bird-of-paradise-flower-6698955_960_720.jpg");
+    /* background-repeat:no-repeat; */
+    background-position-x:center;
+    background-position-y:center;
+}
+.containerLogin{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.loginCard{
+    text-align: center  ;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 0.6rem;
+    justify-content: center;
+    box-shadow: 5px 5px 25px #d88c06;
+}   
+.carTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d88c06;
+    height: 70px;
+    border-radius: 8px 8px 30px 30px;
+}
+.carTop h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 30px 30px 30px 30px;
+}
+h1{
+    text-shadow:black 8px 4px 8px ;
+    color: black;
+}
+.formLogin{
+    margin: 45px;
+}
+.labelInput{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.input{
+    margin-top: 0px;
+}
+.checkbox{
+    margin-left: 95px;
+    color: #dfe;
+    background-color: #d88c06;
+}
+.redesSociales p{
+    color: #dfe;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: .5;
+    font-size: 12px;
+    font-style: italic;
+}
+.campo{
+    outline: none;
+    background-color: #dfe;
+    border: 0;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    height: 25px;
+    width: 250px;
+}
+.buttonIniciar button{
+    margin-top: 25px;
+    outline: none;
+    border: 0;
+    height: 30px;
+    border: 1px solid #d88c06;
+    background-color: #d88c06;
+    border-radius: 5px;
+    width: 140px;
+    font-style: normal;
+    box-shadow: 1px 1px 20px #d88c06;
+    cursor: pointer;
+}
+.buttonIniciar button:hover{
+    opacity: .8;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-shadow:black 4px 4px 8px ;
+}
+
+
+/* Index.html */
+.headerIndex{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727_960_720.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-color: black;
+    height: 60vh;    
+    box-shadow: black 40px 40px 40px 80px;
+}
+.navTop{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    background-color: #ffff;
+    opacity: .5;
+}
+.logo{
+    text-align: left;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 12%;
+}
+.img{
+    padding: 3px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit:cover;
+}
+.uls{
+    width: 88%;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.uls ul{
+    list-style: none;
+    display: inline-block;
+    text-align: end;
+    margin-right: 40px;
+}
+.uls ul li{
+    display: inline;
+    padding-right: 20px;    
+    color: black;
+    text-align: end;
+}
+.uls ul li a{
+    font-size: 20px;
+}
+.buttonCerrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    border: none;
+    background-color: red;
+    opacity: .5;
+}
+.buttonCerrar button{
+    border: none;
+    background: none;
+}
+
+.buttonCerrar button a{
+    color: #dfe;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: unset;
+}
+.postal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postalZIndex{
+    border-radius: 10px 10px 5px 5px; 
+    position: absolute;
+    margin-top: 990PX;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: auto ;
+    display: flex;
+    width: 90%;
+    background-color: #ffff;
+    opacity: .7;
+    display: flex;
+    justify-content: space-around;
+}
+.containerPoters{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-items: center;
+    background-position-x:center;
+    background-position-y:center;
+}
+.cardsOptions{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    background-color: #d88c06;
+    border-radius: 14px;
+    margin: 40px 50px;
+    text-align: center;
+}
+.imgCard{
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+.titleCrad{
+    text-align: center;    
+    font-size: medium;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card1{
+    background-color: #3ddc84;
+    box-shadow: #3ddc84 0px 4px 4px 1px;
+}
+.card2{
+    background-color: red;
+    box-shadow: red 0px 4px 4px 1px;
+
+}
+.card3{
+    background-color: #42b883;
+    box-shadow: #42b883 0px 4px 4px 1px;
+}
+.card4{
+    background-color: blue;
+    box-shadow: blue 0px 4px 4px 1px;
+}
+
+
+/* SECTIONS */
+.sections{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section1{
+    margin: 0px 10px 0px 10px;
+}
+.section2{
+    margin: 0px 10px 0px 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 140px;
+    background-color: black;
+}
+
+
+/* PROFILE */
+.headerProfile{
+    background-color: black;    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCardProfile{
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+    width: 80%;
+    background-color: #061bd8;
+}
+.contentCard{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    /* width: 50%; */
+
+}
+.imgImportProfile{
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    justify-content: left;
+
+}
+.contentProfile{
+    width: 50%;
+
+}
+.imgProfile{
+    border-radius: 10px;
+    width: 90%;
+    height: 30rem;
+}
+.experience{
+    margin-left: 50px;
+    height: 70%;
+    width: 100%;
+    background-color: #39c;
+    border: 2px solid black;
+}
+.experienceTop{
+    background-color: aliceblue;
+    height: 20px;
+}
